@@ -120,7 +120,7 @@ if (risposta.equals("s")) {
 
     //Dopo che l’evento è stato istanziato, chiedere all’utente se e quante prenotazioni vuole fare e provare ad effettuarle, implementando opportuni controlli
     private static void gestisciPrenotazioni(Scanner scanner, Evento evento) {
-        System.out.println("\n🔔 Stai gestendo le prenotazioni per l'evento: " 
+        System.out.println(" Stai gestendo le prenotazioni per l'evento: " 
             + evento.getData() + " - " + evento.getTitolo());
     
         while (true) {
