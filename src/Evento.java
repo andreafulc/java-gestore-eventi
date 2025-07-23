@@ -166,4 +166,10 @@ public void setPostiPrenotati(int postiPrenotati) {
     }
     this.postiPrenotati = postiPrenotati;
 }
+
+
+public Object getDataFormattata() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'getDataFormattata'");
+}
 }

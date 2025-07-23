@@ -14,7 +14,7 @@ public class Concerto extends Evento {
         super(titolo, data, postiTotali);
         this.artista = artista;
         this.ora = ora;
-        setPrezzo(prezzo);
+        this.prezzo = prezzo;
     }
 
     public String getArtista() {
